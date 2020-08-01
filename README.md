@@ -67,6 +67,16 @@
  
 ![11](images/fileperm.jpg?raw=true "fileperm")
 
++ **Let's copy our public key into the remote box.**
+
+``cat /home/kali/.ssh/id_rsa.pub``
+``echo "your_id_rsa.pub" > /opt/.backups/jake_id_rsa.pub.backup``
+
+![12](images/copy_id.jpg?raw=true "copy_id")
+
+![13](images/copy_id_2.jpg?raw=true "copy_id_2")
 
 
+**Now, we have overwritten the public ssh and we can use public key authentication. Voila, there's our user flag**
 
+![13](images/user_flag.jpg?raw=true "user_flag")
