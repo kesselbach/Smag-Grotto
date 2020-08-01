@@ -33,3 +33,4 @@
 
 ![6](images/tcp_stream.png?raw=true "tcp_stream")
 
++ **Bingo! We found some credentials in plain text form**
