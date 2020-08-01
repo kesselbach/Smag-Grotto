@@ -84,3 +84,5 @@
 + **Now, we have overwritten the public ssh and we can use public key authentication. Voila, there's our user flag**
 
 ![13](images/user_flag.jpg?raw=true "user_flag")
+
+## Root Escalation
