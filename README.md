@@ -17,6 +17,8 @@
 + **Let's perform a gobuster to search some directories on the website. I'm using the common.txt wordlist, a default wordlist on kali machines**
 
 ``gobuster dir -u http://10.10.163.139/ -w /usr/share/wordlists/dirb/common.txt``
+
+
 ![3](images/dirbuster.jpg?raw=true "gobuster")
 
 + **We found a mail directory, so let's check it out into the web browser. It seems to be like a mail message left on the website to notify a future migration. The mail was writen with the intention to arrive to the admin of the page**
