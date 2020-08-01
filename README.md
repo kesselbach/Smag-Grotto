@@ -8,4 +8,8 @@
 
 + **There are 2 services running on default ports: ssh and http**
 
-![1](images/nmap_scan_sg.jpg?raw=true "Title")
+![1](images/nmap_scan_sg.jpg?raw=true "nmap_scan")
+
++ **Visiting the http site, we are welcomed by a big Smag title with a small announce from the developer of the site**
+
+![2](images/site_sg.png?raw=true "Site")
