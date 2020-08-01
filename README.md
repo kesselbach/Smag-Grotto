@@ -60,10 +60,11 @@
 ![9](images/entered(2).jpg?raw=true "shell")
 
 + **Let's look into the crontab file and understand it. We have a cron which tells us that the root user is making an overwriting action every minute through the cat command from the** jake_id_rsa.pub.backup **file to the** authorized_keys **file of the jake user. This means that if we can modify the jake_id_rsa.pub.backup content, we can connect with the jake user on the ssh service.**
-  **Luckily, the** jake_id_rsa.pub.backup **file has writing permission for every user.
-  
+
 ![10](images/crontab.jpg?raw=true "crontab")
 
+ **Luckily, the** jake_id_rsa.pub.backup **file has writing permission for every user.**
+ 
 ![11](images/fileperm.jpg?raw=true "fileperm")
 
 
