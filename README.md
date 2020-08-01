@@ -1,7 +1,7 @@
 # 'Smag Grotto' box writeup
 ## Smag Grotto is a CTF box written by JakeDoesSec and available on the [TryHackMe platform](https://tryhackme.com).
-## Read about [Crontab service](https://opensource.com/article/17/11/how-use-cron-linux) and [apt-get package system tool](https://itsfoss.com/apt-get-linux-guide/)
-# ![bg](images/background.png?raw=true "Title")
+## Read about [Crontab service](https://opensource.com/article/17/11/how-use-cron-linux), [apt-get package system tool](https://itsfoss.com/apt-get-linux-guide/)
+# ![bg](images/background.png?raw=true "Title") and [APT Privilege Escalation](https://www.hackingarticles.in/linux-for-pentester-apt-privilege-escalation/)
 
 ## Foothold
 + **We deploy the machine and start with a nmap scan for open ports**
