@@ -25,3 +25,7 @@
 
 ![4](images/mail_page.png?raw=true "mail_page")
 
++ **Inside the first Network Migration box of the message, we can spot the dHJhY2Uy.pcap, a linked file which seems to be a packet data of this network. Let's download that file and go into a Wireshark analysis of this packet. **
+
+
+![5](images/wiresh_packet.png?raw=true "wireshark_analysis")
