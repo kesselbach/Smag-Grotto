@@ -25,7 +25,11 @@
 
 ![4](images/mail_page.png?raw=true "mail_page")
 
-+ **Inside the first Network Migration box of the message, we can spot the dHJhY2Uy.pcap, a linked file which seems to be a packet data of this network. Let's download that file and go into a Wireshark analysis of this packet. **
-
++ **Inside the first Network Migration box of the message, we can spot the dHJhY2Uy.pcap, a linked file which seems to be a packet data of this network. Let's download that file and go into a Wireshark analysis of this packet.**
 
 ![5](images/wiresh_packet.png?raw=true "wireshark_analysis")
+
++ **We can spot a POST login request inside the data packet, so let's follow TCP stream into this packet**
+
+![6](images/tcp_stream.png?raw=true "tcp_stream")
+
