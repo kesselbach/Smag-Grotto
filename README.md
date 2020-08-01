@@ -8,4 +8,4 @@
 
 + **There are 2 services running on default ports: ssh and http**
 
-![1](images/nmap_scan.jpg?raw=true "Title")
+![1](images/nmap_scan_sg.jpg?raw=true "Title")
