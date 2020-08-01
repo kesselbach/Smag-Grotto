@@ -33,4 +33,10 @@
 
 ![6](images/tcp_stream.png?raw=true "tcp_stream")
 
-+ **Bingo! We found some credentials in plain text form**
++ **Bingo! We found some credentials in plain text form. Looking in the picture behind us, we can see the Host that has been used in the POST login request: development.smag.thm. If we are trying to access that page, we're having trouble finding that site... But, judging on the mails that the developers shared between them, the website suffered a migration, so let's just try to change our hosts list to override the DNS**
+
+``sudo vim /etc/hosts``
+
+![7](images/hosts.jpg?raw=true "hosts")
+
+
