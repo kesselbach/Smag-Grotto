@@ -2,7 +2,7 @@
 ## Smag Grotto is a CTF box written by JakeDoesSec and available on the [TryHackMe platform](https://tryhackme.com).
 # ![bg](images/background.png?raw=true "Title")
 
-+ **We deploy the machine and start with an nmap scan for open ports**
++ **We deploy the machine and start with a nmap scan for open ports**
 
 ``nmap -sV -sC -oN scan1 10.10.163.139``
 
