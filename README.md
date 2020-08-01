@@ -2,6 +2,7 @@
 ## Smag Grotto is a CTF box written by JakeDoesSec and available on the [TryHackMe platform](https://tryhackme.com).
 # ![bg](images/background.png?raw=true "Title")
 
+## Foothold
 + **We deploy the machine and start with a nmap scan for open ports**
 
 ``nmap -sV -sC -oN scan1 10.10.163.139``
@@ -47,6 +48,7 @@
 
 ![8](images/wget.jpg?raw=true "wget")
 
+## User escalation
 + **It's all working, we get the GET request so let's move on to a reverse shell, using python3. I've tried with python but not working, because probably on the machine a python3 is installed.**
   **Firstly, listen to the 1234 port**
 ``nc -lvnp 1234``
