@@ -87,3 +87,8 @@
 ![13](images/user_flag.jpg?raw=true "user_flag")
 
 ## Root Escalation
+
++ **Running the** ``sudo -l`` **command, we can see the allowed commands for the user jake. He has a powerful accessible command to run: apt-get, which is the command line tool to interact with this packaging system.**
+
+![14](images/sudola.jpg?raw=true "sudo -l")
+
