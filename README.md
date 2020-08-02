@@ -95,8 +95,8 @@
 + **Exploiting the apt-get vulnerability, we can use the tool to gain a root access, using the update option and simultanously invoking the bash into the root account**
 
 ``sudo apt-get update -o APT::Update::Pre-Invoke::=/bin/bash``
-
-+ **So here we got the root flag. It was a funny box with an interesting vulnerability based on apt tool, a very useful box for beginners and all the thanks goes to JakeDoesSec**
-
-![15](images/root_flag(1).jpg?raw=true "root_flag")
+ 
+ ![15](images/root_flag(1).jpg?raw=true "root_flag")
+ 
+ **So here we got the root flag. It was a funny box with an interesting vulnerability based on apt tool, a very useful box for beginners and all the thanks goes to JakeDoesSec**
 
