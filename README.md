@@ -51,7 +51,7 @@
 ![8](images/wget.jpg?raw=true "wget")
 
 ## User escalation
-+ **It's all working, we get the GET request so let's move on to a reverse shell, using python3. I've tried with python but not working, because probably on the machine a python3 is installed.**
++ **It's all working, we have the GET request so let's move on to a reverse shell, using python3. I've tried with python but not working, because probably on the machine a python3 is installed.**
   **Firstly, listen to the 1234 port**
 ``nc -lvnp 1234``
 
